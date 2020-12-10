@@ -8,3 +8,5 @@ These are basic python programs.
 **System Check**: Run the program and it will display the system details of the machine on which the program is running.
 
 **TextPro**: It takes arguments from the user in the form of strings, contineuosly, unless the user enters `end`. It then, combines all the inputs to form a meaningful sentence.
+
+**Guess the Number Game**: Enter the number of chances you want to guess the number. Guess the number and see if you win! or lose!
