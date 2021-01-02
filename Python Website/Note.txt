@@ -1,0 +1,11 @@
+Always use a virtual environment for running flask applications.
+
+~ pip install virtualenv
+
+STEP 1: Create a new folder and move the existing the folder into the new folder.
+STEP 2: Create a virtual environment in the new folder (not in the website folder).
+STEP 3: command - "python -m venv virtual".
+STEP 4: Install flask in the virtual python.
+STEP 5: Command - "virtual\scripts\pip install flask".
+STEP 6: Run the flask applications in the virtual environment.
+STEP 7: Command - "virtual\scripts\python Python Website\script1.py".
