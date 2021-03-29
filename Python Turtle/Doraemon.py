@@ -108,7 +108,48 @@ def mouth():
     goto(0, -25)
 
 
+def whiskers():
+    color("black", "black")
+
+    # Middle left
+    penup()
+    goto(10, 5)
+    pendown()
+    goto(-40, 5)
+
+    # Middle right
+    penup()
+    goto(-10, 5)
+    pendown()
+    goto(40, 5)
+
+    # Upper right
+    penup()
+    goto(10, 5)
+    pendown()
+    goto(40, 20)
+
+    # Upper left
+    penup()
+    goto(10, 15)
+    pendown()
+    goto(-40, 20)
+
+    # lower left
+    penup()
+    goto(-10, -5)
+    pendown()
+    goto(-40, -10)
+
+    # Lower right
+    penup()
+    goto(10, -5)
+    pendown()
+    goto(40, -10)
+
+
 head()
 eyes()
 nose()
 mouth()
+whiskers()
