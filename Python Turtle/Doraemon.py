@@ -192,6 +192,53 @@ def feet():
     drawRound(20, True)
 
 
+def arms():
+    # Left arm
+    color("blue", "blue")
+    penup()
+    begin_fill()
+    goto(-51, -50)
+    pendown()
+    goto(-51, -57)
+    left(70)
+    goto(-76, -85)
+    left(70)
+    goto(-86, -70)
+    left(70)
+    goto(-51, -50)
+    end_fill()
+
+    # Right arm
+    color("blue", "blue")
+    penup()
+    begin_fill()
+    goto(49, -50)
+    pendown()
+    goto(49, -75)
+    left(70)
+    goto(74, -85)
+    left(70)
+    goto(84, -70)
+    left(70)
+    goto(49, -50)
+    end_fill()
+
+
+def hands():
+    # Left hand
+    color("black", "white")
+    penup()
+    goto(-90, -71)
+    drawRound(15, True)
+
+    # Right hand
+    color("black", "white")
+    penup()
+    goto(90, -71)
+    drawRound(15, True)
+
+
+
 head()
 eyes()
 nose()
@@ -199,3 +246,5 @@ mouth()
 whiskers()
 body()
 feet()
+arms()
+hands()
