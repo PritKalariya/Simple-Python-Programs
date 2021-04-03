@@ -148,8 +148,54 @@ def whiskers():
     goto(40, -10)
 
 
+def body():
+    # Blue body
+    color("blue", "blue")
+    penup()
+    goto(-50, -40)
+    drawRect(100, 80, True)
+
+    # White belly
+    color("white", "white")
+    penup()
+    goto(0, -30)
+    drawRound(40, True)
+
+    # Red ribbon
+    color("red", "red")
+    penup()
+    goto(-60, -35)
+    drawRect(120, 10, True)
+
+    # White legs
+    color("white", "white")
+    penup()
+    goto(15, -127)
+    pendown()
+    setheading(90)
+    begin_fill()
+    circle(14, 180)
+    end_fill()
+
+
+def feet():
+    # Left foot
+    color("black", "white")
+    penup()
+    goto(-30, -110)
+    drawRound(20, True)
+
+    # Right foot
+    color("black", "white")
+    penup()
+    goto(30, -110)
+    drawRound(20, True)
+
+
 head()
 eyes()
 nose()
 mouth()
 whiskers()
+body()
+feet()
